@@ -91,7 +91,7 @@ SecurityEvent
 ## 📊 Dashboards Built
 - Top Attacking IPs
 - Failed Login Attempts Over Time
-
+![Screenshot 2025-06-10 170537](https://github.com/user-attachments/assets/59a89e4f-7fa0-45d7-a870-cd09e66bce7c)
 ---
 
 ## 📈 Results
@@ -104,3 +104,4 @@ SecurityEvent
 
 ## 📝 Conclusion
 This honeypot project successfully demonstrated how to deploy a vulnerable Azure environment, monitor real-world cyberattacks, and extract valuable threat intelligence using Microsoft Sentinel. It strengthened practical skills in cloud security monitoring, incident analysis, and SIEM operations.
+
