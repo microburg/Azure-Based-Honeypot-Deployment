@@ -21,7 +21,8 @@ This project involved deploying a cloud-based honeypot using Microsoft Azure to 
 - Log Analytics Workspace: For centralized logging and data ingestion
 - Microsoft Sentinel: SIEM solution connected to the workspace for analysis, rule creation, and visualization
 
-![Screenshot 2025-06-09 205213](https://github.com/user-attachments/assets/47a37abc-0beb-4609-b28a-48f160642639)
+
+![Screenshot 2025-06-10 174834](https://github.com/user-attachments/assets/9413b694-12a5-4256-bf9c-96830f8b3e83)
 
 
 ---
@@ -38,7 +39,7 @@ This project involved deploying a cloud-based honeypot using Microsoft Azure to 
   - Inbound: Allow All 
   - Outbound: Allow All
 
-![Screenshot 2025-06-09 205503](https://github.com/user-attachments/assets/ceb6ae88-60f5-4449-8b1b-fad2fffc09e3)
+![Screenshot 2025-06-10 174533](https://github.com/user-attachments/assets/39fab86e-4c72-4322-a8f8-28b88464fbd1)
 
 
 ### Honeypot Configuration
@@ -87,7 +88,7 @@ SecurityEvent
 | sort by TotalAttempts desc
 ```
 
-![Screenshot 2025-06-10 173759](https://github.com/user-attachments/assets/e1e1e8d0-5e6f-4191-aae0-9e82b5cdaf64)
+![Screenshot 2025-06-10 174353](https://github.com/user-attachments/assets/2d1f6229-7fba-4faa-96bc-c37846f54d9c)
 
 
 ### MITRE ATT&CK Mapping
@@ -101,9 +102,10 @@ SecurityEvent
 - Top Attacking IPs
 - Failed Login Attempts Over Time
   
-![Screenshot 2025-06-10 170537](https://github.com/user-attachments/assets/59a89e4f-7fa0-45d7-a870-cd09e66bce7c)
+![Screenshot 2025-06-10 174411](https://github.com/user-attachments/assets/900c0215-f6ca-4fde-97a5-efeb7bedd520)
 
 ---
+
 
 ## 📈 Results
 
