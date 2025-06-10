@@ -21,6 +21,9 @@ Network Security Group (NSG): All inbound and outbound ports allowed (intentiona
 Log Analytics Workspace: For centralized logging and data ingestion
 Microsoft Sentinel: SIEM solution connected to the workspace for analysis, rule creation, and visualization
 
+![Screenshot 2025-06-09 205213](https://github.com/user-attachments/assets/47a37abc-0beb-4609-b28a-48f160642639)
+
+
 ---
 
 ## 🔧 Setup Steps
@@ -34,6 +37,8 @@ Microsoft Sentinel: SIEM solution connected to the workspace for analysis, rule 
 - Associated a custom Network Security Group (NSG) with rules (Any protocol, any port, any source):
   - Inbound: Allow All 
   - Outbound: Allow All
+
+![Screenshot 2025-06-09 205503](https://github.com/user-attachments/assets/ceb6ae88-60f5-4449-8b1b-fad2fffc09e3)
 
 
 ### Honeypot Configuration
@@ -81,6 +86,10 @@ SecurityEvent
     LastAttempt
 | sort by TotalAttempts desc
 ```
+
+![Screenshot 2025-06-10 173759](https://github.com/user-attachments/assets/e1e1e8d0-5e6f-4191-aae0-9e82b5cdaf64)
+
+
 ### MITRE ATT&CK Mapping
 - Techniques Detected:
   - T1110 - Brute Force
@@ -91,10 +100,13 @@ SecurityEvent
 ## 📊 Dashboards Built
 - Top Attacking IPs
 - Failed Login Attempts Over Time
+  
 ![Screenshot 2025-06-10 170537](https://github.com/user-attachments/assets/59a89e4f-7fa0-45d7-a870-cd09e66bce7c)
+
 ---
 
 ## 📈 Results
+
 - Detected frequent brute-force login attempts from international IPs.
 - Identified trends in attacker behavior, including:
   - Time-of-day attack patterns
