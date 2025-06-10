@@ -6,20 +6,20 @@ This project involved deploying a cloud-based honeypot using Microsoft Azure to 
 ---
 
 ## 🎯 Objectives
-Deploy a high-interaction honeypot to attract and monitor cyber threats.
-Collect and analyze logs from the honeypot system.
-Detect malicious activity using KQL queries in Microsoft Sentinel.
-Build dashboards for visualizing attack trends and indicators of compromise (IOCs).
+- Deploy a high-interaction honeypot to attract and monitor cyber threats.
+- Collect and analyze logs from the honeypot system.
+- Detect malicious activity using KQL queries in Microsoft Sentinel.
+- Build dashboards for visualizing attack trends and indicators of compromise (IOCs).
 
 ---
 
 ## 🏗️ Architecture & Tools Used
-Azure Resources
-Virtual Machine: Windows 10 Pro VM (B-series size)
-Virtual Network (VNet): Custom virtual network with internet access
-Network Security Group (NSG): All inbound and outbound ports allowed (intentionally misconfigured to attract attacks)
-Log Analytics Workspace: For centralized logging and data ingestion
-Microsoft Sentinel: SIEM solution connected to the workspace for analysis, rule creation, and visualization
+### Azure Resources
+- Virtual Machine: Windows 10 Pro VM (B-series size)
+- Virtual Network (VNet): Custom virtual network with internet access
+- Network Security Group (NSG): All inbound and outbound ports allowed (intentionally misconfigured to attract attacks)
+- Log Analytics Workspace: For centralized logging and data ingestion
+- Microsoft Sentinel: SIEM solution connected to the workspace for analysis, rule creation, and visualization
 
 ![Screenshot 2025-06-09 205213](https://github.com/user-attachments/assets/47a37abc-0beb-4609-b28a-48f160642639)
 
